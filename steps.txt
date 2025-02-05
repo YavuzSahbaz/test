@@ -6,9 +6,9 @@ https://github.com/t3l3machus/PowerShell-Obfuscation-Bible
 
 First step
 
-use Villain refactor 
+use Villain refactor is custom; I uploaded it under test.
 
-after the invoke stealth is custom, I uploaded under test.
+
 
 [11:16 AM, 11/13/2023] Yavuz:kali
 [11:16 AM, 11/13/2023] Yavuz:pwsh
